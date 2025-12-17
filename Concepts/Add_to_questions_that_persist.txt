@@ -1,0 +1,6 @@
+Add to Quentions that Persist^TM:
+
+Why do we just use a density for the current? In light cone coordinates, shouldnt it be c rho + j^1 ?
+
+
+CARTESIAN VS BJORKEN COORDINATES IN CALCULATING dE/dx AND ^q

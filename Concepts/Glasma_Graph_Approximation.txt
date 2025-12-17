@@ -1,0 +1,6 @@
+Glasma Graph Approximation
+
+Wick-Theorem-like decomposition of n-point functions into two-point functions. Includes the assumption that the averaging of gluon fields obeys Gaussian Dynamics?
+
+[1] Phase 3 1808.00795 4.2
+[2] Phase 3 2102.09993 p. 6

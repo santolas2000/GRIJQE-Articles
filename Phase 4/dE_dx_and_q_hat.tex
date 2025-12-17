@@ -1,0 +1,161 @@
+\input{Preamble}
+
+\begin{document}
+
+Envelope (wherever ``..." is written)
+
+\begin{equation*}
+\begin{split}
+\frac{g^4}{2 N_c}
+\int_0^\tau & \diff \tau'
+\int \frac{\diff^2 k_\perp}{(2\pi^2)}
+\int \frac{\diff^2 l_\perp}{(2\pi^2)}
+\int \diff^2 u_\perp
+\int \diff^2 v_\perp ~
+e^{i (x_\perp - u_\perp) k_\perp}
+e^{i (y_\perp - v_\perp) l_\perp} \\
+& ... \\
+&  f^{bca} f^{dea}
+\left< \alpha^i_{1b} (u_\perp) \alpha^m_{1d} (v_\perp) \right>  \left< \alpha^j_{2c} (u_\perp) \alpha^n_{2e} (v_\perp) \right>
+\end{split}
+\end{equation*}
+
+$G$ and $h$ functions in the GBW model
+\begin{equation*}
+	G_\text{GBW}(r^2) = \frac{{Q_s}^2}{g^2 N_c} \frac{1-\exp \left\{ -\frac{{Q_s}^2 r^2}{4}\right\}}{{Q_s}^2 r^2/4}
+\end{equation*}
+\begin{equation*}
+	h_\text{GBW}(r^2) = 0
+\end{equation*}
+
+\newpage
+
+$$ \frac{\diff E}{\diff x}$$
+
+\begin{equation*}
+\begin{split}
+\frac{\diff E}{\diff x} = & -\frac{v}{T} \frac{v^\alpha v^\beta}{v^2} X^{\alpha \beta} \\
+ = & ... -\frac{v}{T} \frac{1}{v^2} \Big[ (v^1)^2 J_0^K J_0^L \delta^{ij} \delta^{mn} - (v_\perp \times \hat{k})(v_\perp \times \hat{l}) J_1^K J_1^L  \varepsilon^{ij} \varepsilon^{mn}\Big] ...
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+\left(\frac{\diff E}{\diff x}  \right)_{\text{GBW/MV}} & = - \frac{1}{vT} \frac{g^4}{4}\left({N_c}^2-1 \right)
+\int_0^\tau \diff \tau' \int_0^{2\pi} \frac{\diff \phi}{2\pi} \int_0^{2\pi} \frac{\diff \varphi}{2\pi} \\
+  \Bigg[ & (v^1)^2 \bigg(G_1(r) G_2(r) + h_1(r)  h_2(r) \bigg) \\
+ & + (v_\perp)^2 \sin \phi \sin \varphi \bigg(G_1(r) G_2(r) - h_1(r)   h_2(r) \bigg) \Bigg]
+\end{split}
+\end{equation*}
+with $r^2 = (\tau-\tau')^2 + \tau^2 - 2(\tau-\tau') \tau \cos(\varphi-\phi) +  (v_\perp)^2 \tau'^2 + 2|v_\perp| \tau' \left[(\tau-\tau') \cos \varphi - \tau \cos \phi \right] $
+
+\begin{equation*}
+\begin{split}
+\left(\frac{\diff E}{\diff x}  \right)_{\text{GBW}}  = - \frac{1}{vT} & \frac{g^4}{4}\left({N_c}^2-1 \right)
+\int_0^\tau \diff \tau' \int_0^{2\pi} \frac{\diff \phi}{2\pi} \int_0^{2\pi} \frac{\diff \varphi}{2\pi} \\  & G^1_\text{GBW}(r^2) G^2_\text{GBW}(r^2)
+\Big( (v^1)^2 + (v_\perp)^2 \sin \phi \sin \varphi \Big) 
+\end{split}
+\end{equation*}
+
+
+Pure transverse movement: $v^1 = 0, ~ {v_\perp}^2 = v^2$
+\begin{equation*}
+\begin{split}
+\left( \frac{\diff E}{\diff x} \right)_\perp = ... \frac{1}{Tv} (v_\perp \times \hat{k})(v_\perp \times \hat{l}) J_1^K J_1^L  \varepsilon^{ij} \varepsilon^{mn} ...
+\end{split}
+\end{equation*}
+
+Pure longitudinal movement: $v^1 = v, v_\perp=0$
+\begin{equation*}
+\left(\frac{\diff E}{\diff x} \right)_\parallel = ... -\frac{v}{T} J_0^K J_0^L \delta^{ij} \delta^{mn} ...
+\end{equation*}
+
+\newpage
+
+$$\hat{q} $$
+
+\begin{equation*}
+\begin{split}
+\hat{q} = & \frac{2}{v} \left( \delta^{\alpha \beta} - \frac{v^\alpha v^\beta}{v^2} \right) X^{\alpha \beta} \\
+= & ...~ \frac{2}{v} \Bigg[\frac{{v_\perp}^2}{v^2} \left( \delta^{ij} \delta^{mn} + v^2 \varepsilon^{ij} \varepsilon^{mn} \right) J_0 ^K J_0^L \\
+& + i (v_\perp \cdot \hat{l}) (\delta^{ij} \delta^{mn} - \varepsilon^{ij} \varepsilon^{mn}) J_0 ^K J_1^L \\
+& + i (v_\perp \cdot \hat{k}) (\delta^{ij} \delta^{mn} - \varepsilon^{ij} \varepsilon^{mn}) J_1 ^K J_0^L \\
+& -  \Big( (v^1)^2 (\hat{k} \cdot \hat{l}) +(v_\perp \cdot \hat{k}) (v_\perp \cdot \hat{l}) \Big) \left( \delta^{ij} \delta^{mn} + \frac{1}{v^2} \varepsilon^{ij}\varepsilon^{mn} \right)  J_1 ^K J_1^L \Bigg] ...
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+\hat{q}_{\text{GBW/MV}} = & \frac{g^4}{2}  ({N_c}^2-1) \int_0^\tau  \diff \tau' \int_0^{2\pi} \frac{\diff \phi}{2\pi} \int_0^{2\pi} \frac{\diff \varphi}{2\pi} \\
+ & \frac{1}{v} \Bigg[  \frac{(v_\perp)^2}{v^2} \bigg( G_1 G_2 \left(1+v^2\right) + h_1 h_2 \left( 1-v^2\right)\bigg) \\
+ & ~ ~ ~ + \left(\frac{(v^1)^2}{v^2} \cos(\phi-\varphi) + \frac{(v_\perp)^2}{v^2} \cos \phi \cos \varphi \right) \left( G_1 G_2 (1+v^2) + h_1 h_2 (v^2-1) \right) \\
+ & ~ ~ ~ - 2 |v_\perp| h_1 h_2 (\cos \phi + \cos \varphi ) \Bigg] \\
+ = & \frac{g^4}{2}  ({N_c}^2-1) \int_0^\tau  \diff \tau' \int_0^{2\pi} \frac{\diff \phi}{2\pi} \int_0^{2\pi} \frac{\diff \varphi}{2\pi} \\
+ & \frac{1}{v} \Bigg[ \frac{1+v^2}{v^2} G_1 G_2  \Big( (v^1)^2 \cos(\phi-\varphi) + (v_\perp)^2 (\cos \phi \cos \varphi+1) \Big)  \\
+ & ~ ~ ~ - \frac{1-v^2}{v^2} h_1 h_2 \Big( (v^1)^2 \cos (\phi-\varphi) + (v_\perp)^2 (\cos \phi \cos \varphi -1) \Big)\\
+ & ~ ~ ~ - 2 |v_\perp| h_1 h_2 (\cos \phi + \cos \varphi ) \Bigg]
+\end{split}
+\end{equation*}
+
+with $r^2 = (\tau-\tau')^2 + \tau^2 - 2(\tau-\tau') \tau \cos(\varphi-\phi) +  (v_\perp)^2 \tau'^2 + 2|v_\perp| \tau' \left[(\tau-\tau') \cos \varphi - \tau \cos \phi \right] $
+
+\begin{equation}
+\begin{split}
+\hat{q}_{\text{GBW}} = & \frac{g^4}{2}  ({N_c}^2-1) \frac{1+v^2}{v^3} \int_0^\tau  \diff \tau' \int_0^{2\pi} \frac{\diff \phi}{2\pi} \int_0^{2\pi} \frac{\diff \varphi}{2\pi} \\
+ &  G^1_{\text{GBW}} (r^2) G^2_{\text{GBW}} (r^2) \Big( (v^1)^2 \cos(\phi-\varphi) + (v_\perp)^2 (\cos \phi \cos \varphi+1) \Big)
+ \end{split}
+\end{equation}
+
+Pure transverse movement: $v^1 = 0, ~ {v_\perp}^2 = v^2$
+\begin{equation*}
+\begin{split}
+\hat{q}_\perp = & ...~ \frac{2}{v} \Bigg[(\delta^{ij} \delta^{mn} + v^2 \varepsilon^{ij} \varepsilon^{mn}) J_0 ^K J_0^L \\
+& + i (v_\perp \cdot \hat{l}) (\delta^{ij} \delta^{mn} - \varepsilon^{ij} \varepsilon^{mn}) J_0 ^K J_1^L \\
+& + i (v_\perp \cdot \hat{k}) (\delta^{ij} \delta^{mn} - \varepsilon^{ij} \varepsilon^{mn}) J_1 ^K J_0^L \\
+&-  (v_\perp \cdot \hat{k}) (v_\perp \cdot \hat{l}) \left( \delta^{ij} \delta^{mn} + \frac{1}{v^2} \varepsilon^{ij}\varepsilon^{mn} \right)  J_1 ^K J_1^L \Bigg] ...
+\end{split}
+\end{equation*}
+
+Pure longitudinal movement: $v^1 = v, v_\perp=0$
+\begin{equation*}
+\begin{split}
+\hat{q}_\parallel = ...~ - \frac{2}{v} (\hat{k} \cdot \hat{l}) \left( v^2 \delta^{ij} \delta^{mn} + \varepsilon^{ij}\varepsilon^{mn} \right)  J_1 ^K J_1^L ...
+\end{split}
+\end{equation*}
+
+\newpage
+For Pablo:
+\begin{equation*}
+\begin{split}
+\frac{\diff E}{\diff x} = \frac{g^4}{2 N_c} &
+\int_0^\tau \diff \tau'
+\int \frac{\diff^2 k_\perp}{(2\pi^2)}
+\int \frac{\diff^2 l_\perp}{(2\pi^2)}
+\int \diff^2 u_\perp
+\int \diff^2 v_\perp ~
+e^{i (x_\perp - u_\perp) k_\perp}
+e^{i (y_\perp - v_\perp) l_\perp} \\
+& \left( -\frac{v}{T} \frac{1}{v^2} \Big[ (v^1)^2 J_0^K J_0^L \delta^{ij} \delta^{mn} - (v_\perp \times \hat{k})(v_\perp \times \hat{l}) J_1^K J_1^L  \varepsilon^{ij} \varepsilon^{mn} \right)\\
+&  f^{bca} f^{dea}
+\left< \alpha^i_{1b} (u_\perp) \alpha^m_{1d} (v_\perp) \right>  \left< \alpha^j_{2c} (u_\perp) \alpha^n_{2e} (v_\perp) \right>
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+\hat{q} = \frac{g^4 ({N_c}^2-1)}{v}
+\int_0^t & d t'
+\int_{k_\perp q_\perp}
+\int_{u_\perp v_\perp}
+e^{i k_\perp (x - u)_\perp }
+e^{i q_\perp (y - v)\perp} 
+~ W_1^{ik} (u_\perp, v_\perp) W_2^{jl}(u_\perp, v_\perp)\\
+& \Bigg[\frac{{v_\perp}^2}{v^2} \left( \delta^{ij} \delta^{kl} + v^2 \varepsilon^{ij} \varepsilon^{kl} \right) J_0(kt) J_0(q(t-t')) \\
+& + i \frac{v_\perp \cdot q}{q} (\delta^{ij} \delta^{kl} - \varepsilon^{ij} \varepsilon^{kl}) J_0 (kt) J_1(q (t-t')) \\
+& + i \frac{v_\perp \cdot k}{k} (\delta^{ij} \delta^{kl} - \varepsilon^{ij} \varepsilon^{kl}) J_1 (k t) J_0(q (t-t')) \\
+& -  \Big( (v^1)^2 \frac{k \cdot q}{kq} +\frac{(v_\perp \cdot k) (v_\perp \cdot q)}{kq} \Big) \left( \delta^{ij} \delta^{kl} + \frac{1}{v^2} \varepsilon^{ij}\varepsilon^{kl} \right)  J_1 (k t) J_1(q (t-t')) \Bigg] \\
+\end{split}
+\end{equation*}
+
+
+\end{document}

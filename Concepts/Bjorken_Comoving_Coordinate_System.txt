@@ -1,0 +1,6 @@
+BJORKEN/COMOVING COORDINATE SYSTEM
+
+Coordinate system with tau, eta, and transverse coordinates.
+
+[1] Phase 2 9502289 p.14
+[2] Phase 3 2102.09993 p.7

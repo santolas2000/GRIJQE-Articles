@@ -1,0 +1,9 @@
+The GBW model
+
+Orginally a purely phenomenological parametrization to fit DIS data.
+
+A way to parametrize the gluon dipole amplitude.
+
+Very little physics, just came up with expressions for the gluon densities. -- Pablo
+
+[1] Phase 3 2102.09993 page 4

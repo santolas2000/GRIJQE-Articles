@@ -1,0 +1,500 @@
+\input{Preamble}
+
+\begin{document}
+
+$X^{11}$ 
+
+\begin{equation*}
+\begin{split}
+ X^{11} = \Bigg< &
+\frac{g^4}{2 N_c}
+\int_0^\tau \diff \tau'
+\int \frac{\diff^2 k_\perp}{(2\pi^2)}
+\int \frac{\diff^2 l_\perp}{(2\pi^2)}
+\int \diff^2 u_\perp
+\int \diff^2 v_\perp ~
+e^{i (x_\perp - u_\perp) k_\perp}
+e^{i (y_\perp - v_\perp) l_\perp} \\
+& \bigg( J_0\big(k \tau \big) J_0\big(l(\tau-\tau')\big) \\
+& +i \frac{v_\perp \cdot l_\perp}{l} J_0\big(k \tau \big) J_1\big(l(\tau-\tau')\big) \\
+& +i \frac{v_\perp \cdot k_\perp}{k} J_1\big(k \tau \big) J_0\big(l(\tau-\tau')\big) \\
+& - \frac{v_\perp \cdot l_\perp}{l} \frac{v_\perp \cdot k_\perp}{k} J_1\big(k \tau \big) J_1\big(l(\tau-\tau')\big)
+\bigg) \\
+& \delta^{ij} \delta^{mn} \left[\alpha^i_1 (u_\perp), \alpha_2^j (u_\perp) \right] \left[\alpha^m_1 (v_\perp), \alpha_2^n (v_\perp) \right]\Bigg>
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+ X^{11} = & 
+\frac{g^4}{2 N_c}
+\int_0^\tau \diff \tau'
+\int \frac{\diff^2 k_\perp}{(2\pi^2)}
+\int \frac{\diff^2 l_\perp}{(2\pi^2)}
+\int \diff^2 u_\perp
+\int \diff^2 v_\perp ~
+e^{i (x_\perp - u_\perp) k_\perp}
+e^{i (y_\perp - v_\perp) l_\perp} \\
+& \bigg[ J_0\big(k \tau \big) J_0\big(l(\tau-\tau')\big) \\
+& +i \frac{v_\perp \cdot l_\perp}{l} J_0\big(k \tau \big) J_1\big(l(\tau-\tau')\big) \\
+& +i \frac{v_\perp \cdot k_\perp}{k} J_1\big(k \tau \big) J_0\big(l(\tau-\tau')\big) \\
+& - \frac{v_\perp \cdot l_\perp}{l} \frac{v_\perp \cdot k_\perp}{k} J_1\big(k \tau \big) J_1\big(l(\tau-\tau')\big)
+\bigg] \\
+& \delta^{ij} \delta^{mn} f^{bca} f^{dea}
+\left< \alpha^i_{1b} (u_\perp) \alpha^m_{1d} (v_\perp) \right>  \left< \alpha^j_{2c} (u_\perp) \alpha^n_{2e} (v_\perp) \right> 
+\end{split}
+\end{equation*}
+
+\newpage
+
+$X^{1 \beta}, ~ \beta=2,3$
+
+\begin{equation*}
+\begin{split}
+ X^{1 \beta} = &
+\frac{g^4}{2 N_c}
+\int_0^\tau \diff \tau'
+\int \frac{\diff^2 k_\perp}{(2\pi^2)}
+\int \frac{\diff^2 l_\perp}{(2\pi^2)}
+\int \diff^2 u_\perp
+\int \diff^2 v_\perp ~
+e^{i (x_\perp - u_\perp) k_\perp}
+e^{i (y_\perp - v_\perp) l_\perp} \\
+& \bigg[ - i \varepsilon^{\beta \beta'} \frac{l^{\beta'}}{l} J_0(k \tau) J_1\big(l (\tau-\tau')\big) \varepsilon^{mn}  \\
+& - i \Big(i \varepsilon^{\beta \beta'} v^{\beta'} J_0\big(l(\tau-\tau')\big) \varepsilon^{mn} + v^1 \frac{l^\beta}{l} J_1\big(l(\tau-\tau') \big) \delta^{mn} \Big) J_0(k \tau)  \\
+& + \frac{v_\perp \cdot k_\perp}{k} \varepsilon^{\beta \beta'} \frac{l^{\beta'}}{l} J_1(k\tau) J_1\big(l(\tau-\tau')\big) \varepsilon^{mn}  \\
+& + \frac{v_\perp \cdot k_\perp}{k} \Big( i \varepsilon^{\beta \beta'} v^{\beta'} J_0\big(l(\tau-\tau')\big) \varepsilon^{mn} + v^1 \frac{l^\beta}{l} J_1\big(l(\tau-\tau') \big) \delta^{mn} \Big) J_1 (k\tau) \bigg]\\
+& \delta^{ij}  f^{bca} f^{dea}
+\left< \alpha^i_{1b} (u_\perp) \alpha^m_{1d} (v_\perp) \right>  \left< \alpha^j_{2c} (u_\perp) \alpha^n_{2e} (v_\perp) \right>
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+ X^{1 \beta} = &
+\frac{g^4}{2 N_c}
+\int_0^\tau \diff \tau'
+\int \frac{\diff^2 k_\perp}{(2\pi^2)}
+\int \frac{\diff^2 l_\perp}{(2\pi^2)}
+\int \diff^2 u_\perp
+\int \diff^2 v_\perp ~
+e^{i (x_\perp - u_\perp) k_\perp}
+e^{i (y_\perp - v_\perp) l_\perp} \\
+& \bigg[ \mp i  \frac{l^{\beta'}}{l} J_0(k \tau) J_1\big(l (\tau-\tau')\big) \varepsilon^{mn}  \\
+& - i \Big( \pm i  v^{\beta'} J_0\big(l(\tau-\tau')\big) \varepsilon^{mn} + v^1 \frac{l^\beta}{l} J_1\big(l(\tau-\tau') \big) \delta^{mn} \Big) J_0(k \tau) \\
+& \pm \frac{v_\perp \cdot k_\perp}{k}  \frac{l^{\beta'}}{l} J_1(k\tau) J_1\big(l(\tau-\tau')\big) \varepsilon^{mn}  \\
+& + \frac{v_\perp \cdot k_\perp}{k} \Big( \pm i v^{\beta'} J_0\big(l(\tau-\tau')\big) \varepsilon^{mn} + v^1 \frac{l^\beta}{l} J_1\big(l(\tau-\tau') \big) \delta^{mn} \Big) J_1 (k\tau) \bigg]\\
+& \delta^{ij} f^{bca} f^{dea}
+\left< \alpha^i_{1b} (u_\perp) \alpha^m_{1d} (v_\perp) \right>  \left< \alpha^j_{2c} (u_\perp) \alpha^n_{2e} (v_\perp) \right>
+\end{split}
+\end{equation*}
+
+(removing the terms with Levi-Civita in the $nm$ space)
+
+\begin{equation*}
+\begin{split}
+ X^{1 \beta} = &
+\frac{g^4}{2 N_c}
+\int_0^\tau \diff \tau'
+\int \frac{\diff^2 k_\perp}{(2\pi^2)}
+\int \frac{\diff^2 l_\perp}{(2\pi^2)}
+\int \diff^2 u_\perp
+\int \diff^2 v_\perp ~
+e^{i (x_\perp - u_\perp) k_\perp}
+e^{i (y_\perp - v_\perp) l_\perp} \\
+& \bigg[ - i v^1 \frac{l^\beta}{l} J_0(k \tau) J_1\big(l(\tau-\tau') \big)    \\
+& + \frac{v_\perp \cdot k_\perp}{k}  v^1 \frac{l^\beta}{l} J_1 (k\tau) J_1\big(l(\tau-\tau') \big)  \bigg]\\
+& \delta^{ij} \delta^{mn} f^{bca} f^{dea}
+\left< \alpha^i_{1b} (u_\perp) \alpha^m_{1d} (v_\perp) \right>  \left< \alpha^j_{2c} (u_\perp) \alpha^n_{2e} (v_\perp) \right>
+\end{split}
+\end{equation*}
+
+\newpage
+
+$X^{\alpha 1}, ~\alpha=2,3$
+
+\begin{equation*}
+\begin{split}
+ X^{\alpha 1} = &
+\frac{g^4}{2 N_c}
+\int_0^\tau \diff \tau'
+\int \frac{\diff^2 k_\perp}{(2\pi^2)}
+\int \frac{\diff^2 l_\perp}{(2\pi^2)}
+\int \diff^2 u_\perp
+\int \diff^2 v_\perp ~
+e^{i (x_\perp - u_\perp) k_\perp}
+e^{i (y_\perp - v_\perp) l_\perp} \\
+& \bigg[ - i \varepsilon^{\alpha \alpha'} \frac{k^{\alpha'}}{k} J_0\big(l (\tau-\tau')\big) J_1(k \tau) \varepsilon^{ij}  \\
+& - i \Big(i \varepsilon^{\alpha \alpha'} v^{\alpha'} J_0(k \tau) \varepsilon^{ij} + v^1 \frac{k^\alpha}{k} J_1(k \tau) \delta^{ij} \Big) J_0\big(l(\tau-\tau')\big)  \\
+& + \frac{v_\perp \cdot l_\perp}{l} \varepsilon^{\alpha \alpha'} \frac{k^{\alpha'}}{k} J_1\big(l(\tau-\tau')\big) J_1(k\tau) \varepsilon^{ij}  \\
+& + \frac{v_\perp \cdot l_\perp}{l} \Big( i \varepsilon^{\alpha \alpha'} v^{\alpha'} J_0 (k\tau) \varepsilon^{ij} + v^1 \frac{k^\alpha}{k} J_1(k\tau) \delta^{ij} \Big) J_1\big(l(\tau-\tau')\big)  \bigg]\\
+& \delta^{mn}  f^{bca} f^{dea}
+\left< \alpha^i_{1b} (u_\perp) \alpha^m_{1d} (v_\perp) \right>  \left< \alpha^j_{2c} (u_\perp) \alpha^n_{2e} (v_\perp) \right>
+\end{split}
+\end{equation*}
+
+(removing the terms with Levi-Civita in the $ij$ space)
+
+\begin{equation*}
+\begin{split}
+ X^{\alpha 1} = &
+\frac{g^4}{2 N_c}
+\int_0^\tau \diff \tau'
+\int \frac{\diff^2 k_\perp}{(2\pi^2)}
+\int \frac{\diff^2 l_\perp}{(2\pi^2)}
+\int \diff^2 u_\perp
+\int \diff^2 v_\perp ~
+e^{i (x_\perp - u_\perp) k_\perp}
+e^{i (y_\perp - v_\perp) l_\perp} \\
+& \bigg[  - i v^1 \frac{k^\alpha}{k} J_1(k \tau) J_0\big(l(\tau-\tau')\big)   \\
+& + \frac{v_\perp \cdot l_\perp}{l}  v^1 \frac{k^\alpha}{k} J_1(k\tau) J_1\big(l(\tau-\tau')\big)  \bigg]\\
+& \delta^{ij} \delta^{mn}  f^{bca} f^{dea}
+\left< \alpha^i_{1b} (u_\perp) \alpha^m_{1d} (v_\perp) \right>  \left< \alpha^j_{2c} (u_\perp) \alpha^n_{2e} (v_\perp) \right>
+\end{split}
+\end{equation*}
+
+
+\newpage
+
+$X^{\alpha \beta}, ~\alpha, \beta=2,3$
+
+\begin{equation*}
+\begin{split}
+ X^{\alpha \beta} = &
+\frac{g^4}{2 N_c}
+\int_0^\tau \diff \tau'
+\int \frac{\diff^2 k_\perp}{(2\pi^2)}
+\int \frac{\diff^2 l_\perp}{(2\pi^2)}
+\int \diff^2 u_\perp
+\int \diff^2 v_\perp ~
+e^{i (x_\perp - u_\perp) k_\perp}
+e^{i (y_\perp - v_\perp) l_\perp} \\
+& \bigg\{ \bigg[ \Big(\delta^{\alpha \beta} \frac{l_\perp \cdot k_\perp}{l ~k} - \frac{l^\alpha k^\beta}{l ~k}\Big) J_1 (k \tau) J_1\big(l(\tau-\tau')\big) \\
+& -i \Big(\delta^{\alpha \beta} \frac{v_\perp \cdot k_\perp}{k} - \frac{v^\alpha k^\beta}{k}\Big) J_1 (k \tau) J_0\big(l(\tau-\tau')\big) \\
+& -i \Big(\delta^{\alpha \beta} \frac{l_\perp \cdot v_\perp}{l} - \frac{l^\alpha v^\beta}{l}\Big) J_0 (k \tau) J_1\big(l(\tau-\tau')\big) \\
+& + \big(\delta^{\alpha \beta} {v_\perp}^2 - v^\alpha v^\beta\big) J_0 (k \tau) J_0\big(l(\tau-\tau')\big) \bigg] \varepsilon^{ij} \varepsilon^{mn} \\ 
+& -(v^1)^2 \frac{k^\alpha l^\beta}{k ~l} J_1 (k \tau) J_1\big(l(\tau-\tau')\big) \delta^{ij} \delta^{mn} \bigg\} \\
+&  f^{bca} f^{dea}
+\left< \alpha^i_{1b} (u_\perp) \alpha^m_{1d} (v_\perp) \right>  \left< \alpha^j_{2c} (u_\perp) \alpha^n_{2e} (v_\perp) \right>
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+ X^{\alpha \beta} = &
+\frac{g^4}{2 N_c}
+\int_0^\tau \diff \tau'
+\int \frac{\diff^2 k_\perp}{(2\pi^2)}
+\int \frac{\diff^2 l_\perp}{(2\pi^2)}
+\int \diff^2 u_\perp
+\int \diff^2 v_\perp ~
+e^{i (x_\perp - u_\perp) k_\perp}
+e^{i (y_\perp - v_\perp) l_\perp} \\
+& \bigg\{ \bigg[ \Big(\delta^{\alpha \beta}  - \frac{l^\alpha k^\beta}{l_\perp \cdot k_\perp}\Big) \frac{l_\perp \cdot k_\perp}{l ~k} J_1 (k \tau) J_1\big(l(\tau-\tau')\big) \\
+& -i \Big(\delta^{\alpha \beta}  - \frac{v^\alpha k^\beta}{v_\perp \cdot k_\perp}\Big) \frac{v_\perp \cdot k_\perp}{k} J_1 (k \tau) J_0\big(l(\tau-\tau')\big) \\
+& -i \Big(\delta^{\alpha \beta}  - \frac{l^\alpha v^\beta}{l_\perp \cdot v_\perp}\Big) \frac{l_\perp \cdot v_\perp}{l} J_0 (k \tau) J_1\big(l(\tau-\tau')\big) \\
+& + \Big(\delta^{\alpha \beta}  - \frac{v^\alpha v^\beta}{{v_\perp}^2}\Big) {v_\perp}^2 ~ J_0 (k \tau) J_0\big(l(\tau-\tau')\big) \bigg] \varepsilon^{ij} \varepsilon^{mn} \\ 
+& -(v^1)^2 \frac{k^\alpha l^\beta}{k ~l} J_1 (k \tau) J_1\big(l(\tau-\tau')\big) \delta^{ij} \delta^{mn} \bigg\} \\
+&  f^{bca} f^{dea}
+\left< \alpha^i_{1b} (u_\perp) \alpha^m_{1d} (v_\perp) \right>  \left< \alpha^j_{2c} (u_\perp) \alpha^n_{2e} (v_\perp) \right>
+\end{split}
+\end{equation*}
+
+\newpage
+ENVELOPE
+
+\begin{equation*}
+\begin{split}
+ X^{\alpha \beta} = &
+\frac{g^4}{2 N_c}
+\int_0^\tau \diff \tau'
+\int \frac{\diff^2 k_\perp}{(2\pi^2)}
+\int \frac{\diff^2 l_\perp}{(2\pi^2)}
+\int \diff^2 u_\perp
+\int \diff^2 v_\perp ~
+e^{i (x_\perp - u_\perp) k_\perp}
+e^{i (y_\perp - v_\perp) l_\perp} \\
+& ... \\
+&  f^{bca} f^{dea}
+\left< \alpha^i_{1b} (u_\perp) \alpha^m_{1d} (v_\perp) \right>  \left< \alpha^j_{2c} (u_\perp) \alpha^n_{2e} (v_\perp) \right>
+\end{split}
+\end{equation*}
+
+
+\newpage 
+
+FULL TENSOR (without integral/colour space envelope)
+
+\begin{equation*}
+\begin{split}
+ X^{11} = & ... ~ \bigg[ J_0\big(k \tau \big) J_0\big(l(\tau-\tau')\big) \\
+& +i \frac{v_\perp \cdot l_\perp}{l} J_0\big(k \tau \big) J_1\big(l(\tau-\tau')\big) \\
+& +i \frac{v_\perp \cdot k_\perp}{k} J_1\big(k \tau \big) J_0\big(l(\tau-\tau')\big) \\
+& - \frac{v_\perp \cdot l_\perp}{l} \frac{v_\perp \cdot k_\perp}{k} J_1\big(k \tau \big) J_1\big(l(\tau-\tau')\big)
+\bigg] \delta^{ij} \delta^{mn}... 
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+ X^{1 \beta} = & ...~ \bigg[ - i v^1 \frac{l^\beta}{l} J_0(k \tau) J_1\big(l(\tau-\tau') \big)    \\
+& + \frac{v_\perp \cdot k_\perp}{k}  v^1 \frac{l^\beta}{l} J_1 (k\tau) J_1\big(l(\tau-\tau') \big)  \bigg] \delta^{ij} \delta^{mn} ...
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+ X^{\alpha 1} = &...~ \bigg[  - i v^1 \frac{k^\alpha}{k} J_1(k \tau) J_0\big(l(\tau-\tau')\big)   \\
+& + \frac{v_\perp \cdot l_\perp}{l}  v^1 \frac{k^\alpha}{k} J_1(k\tau) J_1\big(l(\tau-\tau')\big)  \bigg] \delta^{ij} \delta^{mn}  ...
+\end{split}
+\end{equation*}
+
+
+\begin{equation*}
+\begin{split}
+ X^{\alpha \beta} = & ...~ \bigg\{ \bigg[ -\Big(\delta^{\alpha \beta}  - \frac{l^\alpha k^\beta}{l_\perp \cdot k_\perp}\Big) \frac{l_\perp \cdot k_\perp}{l ~k} J_1 (k \tau) J_1\big(l(\tau-\tau')\big) \\
+& -i \Big(\delta^{\alpha \beta}  - \frac{v^\alpha k^\beta}{v_\perp \cdot k_\perp}\Big) \frac{v_\perp \cdot k_\perp}{k} J_1 (k \tau) J_0\big(l(\tau-\tau')\big) \\
+& -i \Big(\delta^{\alpha \beta}  - \frac{l^\alpha v^\beta}{l_\perp \cdot v_\perp}\Big) \frac{l_\perp \cdot v_\perp}{l} J_0 (k \tau) J_1\big(l(\tau-\tau')\big) \\
+& + \Big(\delta^{\alpha \beta}  - \frac{v^\alpha v^\beta}{{v_\perp}^2}\Big) {v_\perp}^2 ~ J_0 (k \tau) J_0\big(l(\tau-\tau')\big) \bigg] \varepsilon^{ij} \varepsilon^{mn} \\ 
+& -(v^1)^2 \frac{k^\alpha l^\beta}{k ~l} J_1 (k \tau) J_1\big(l(\tau-\tau')\big) \delta^{ij} \delta^{mn} \bigg\} ...
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+ X^{\alpha \beta} = & ...~ \bigg\{ \bigg[ -\varepsilon^{\alpha \sigma} \frac{k^\sigma}{k} \varepsilon^{\beta \rho} \frac{l^\rho}{l} J_1 (k \tau) J_1\big(l(\tau-\tau')\big) \\
+& -i \varepsilon^{\alpha \sigma} \frac{k^\sigma}{k} \varepsilon^{\beta \rho} v^\rho J_1 (k \tau) J_0\big(l(\tau-\tau')\big) \\
+& -i \varepsilon^{\alpha \rho} v^\rho \varepsilon^{\beta \sigma} \frac{l^\sigma}{l} J_0 (k \tau) J_1\big(l(\tau-\tau')\big) \\
+& + \varepsilon^{\alpha \sigma} v^\sigma \varepsilon^{\beta \rho} v^\rho J_0 (k \tau) J_0\big(l(\tau-\tau')\big) \bigg] \varepsilon^{ij} \varepsilon^{mn} \\ 
+& -(v^1)^2 \frac{k^\alpha l^\beta}{k ~l} J_1 (k \tau) J_1\big(l(\tau-\tau')\big) \delta^{ij} \delta^{mn} \bigg\} ...
+\end{split}
+\end{equation*}
+
+\newpage
+
+CONTRACTIONS (without integral/colour space envelope)
+
+\begin{equation*}
+\begin{split}
+v^\alpha v^\beta X^{\alpha \beta} = & ...~ (v^1)^2 J_0 (k \tau) J_0\big(l(\tau-\tau')\big) \delta^{ij} \delta^{mn} \\
+& - \Big( {v_\perp}^2 \frac{(k_\perp \cdot l_\perp)}{k ~l} - \frac{(v_\perp \cdot k_\perp)}{k}\frac{(v_\perp \cdot l_\perp)}{l}\Big) J_1 (k \tau) J_1\big(l(\tau-\tau')\big) \varepsilon^{ij} \varepsilon^{mn} ... \\
+= & ... ~(v^1)^2 J_0 (k \tau) J_0\big(l(\tau-\tau')\big) \delta^{ij} \delta^{mn} \\
+& - \Big(v_\perp \times \frac{k_\perp}{k} \Big) \Big(v_\perp \times \frac{l_\perp}{l} \Big)J_1 (k \tau) J_1\big(l(\tau-\tau')\big) \varepsilon^{ij} \varepsilon^{mn} ... \\
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+\delta^{\alpha \beta} X^{\alpha \beta}=& ...~ (\delta^{ij} \delta^{mn} + {v_\perp}^2 \varepsilon^{ij} \varepsilon^{mn}) J_0 (k \tau) J_0\big(l(\tau-\tau')\big) \\
+& + i \frac{v_\perp \cdot l_\perp}{l} (\delta^{ij} \delta^{mn} - \varepsilon^{ij} \varepsilon^{mn}) J_0 (k \tau) J_1\big(l(\tau-\tau')\big) \\
+& + i \frac{v_\perp \cdot k_\perp}{k} (\delta^{ij} \delta^{mn} - \varepsilon^{ij} \varepsilon^{mn}) J_1 (k \tau) J_0\big(l(\tau-\tau')\big) \\
+& - \bigg[ \Big(\frac{v_\perp \cdot k_\perp}{k} \frac{v_\perp \cdot l_\perp}{l} + (v^1)^2 \frac{k_\perp \cdot l_\perp}{k~l} \Big) \delta^{ij} \delta^{mn} + \frac{k_\perp \cdot l_\perp}{k ~l} \varepsilon^{ij}\varepsilon^{mn} \bigg] J_1 (k \tau) J_1\big(l(\tau-\tau')\big) \end{split}
+\end{equation*}
+
+\hrule
+
+\begin{equation*}
+\begin{split}
+v^\alpha v^\beta X^{\alpha \beta} = & ...~ (v^1)^2 J_0 (k \tau) J_0\big(l(\tau-\tau')\big) \delta^{ij} \delta^{mn} \\
+& - \Big( {v_\perp}^2 (\hat{k} \cdot \hat{l}) - (v_\perp \cdot \hat{k})(v_\perp \cdot \hat{l})\Big) J_1 (k \tau) J_1\big(l(\tau-\tau')\big) \varepsilon^{ij} \varepsilon^{mn} ... \\
+= & ...~ (v^1)^2 J_0 (k \tau) J_0\big(l(\tau-\tau')\big) \delta^{ij} \delta^{mn} \\
+& - (v_\perp \times \hat{k})(v_\perp \times \hat{l}) J_1 (k \tau) J_1\big(l(\tau-\tau')\big) \varepsilon^{ij} \varepsilon^{mn} ... \\
+\end{split}
+\end{equation*}
+
+
+\begin{equation*}
+\begin{split}
+\delta^{\alpha \beta} X^{\alpha \beta}=& ...~ (\delta^{ij} \delta^{mn} + {v_\perp}^2 \varepsilon^{ij} \varepsilon^{mn}) J_0 (k \tau) J_0\big(l(\tau-\tau')\big) \\
+& + i (v_\perp \cdot \hat{l}) (\delta^{ij} \delta^{mn} - \varepsilon^{ij} \varepsilon^{mn}) J_0 (k \tau) J_1\big(l(\tau-\tau')\big) \\
+& + i (v_\perp \cdot \hat{k}) (\delta^{ij} \delta^{mn} - \varepsilon^{ij} \varepsilon^{mn}) J_1 (k \tau) J_0\big(l(\tau-\tau')\big) \\
+& - \bigg[ \Big((v_\perp \cdot \hat{k}) (v_\perp \cdot \hat{l}) + (v^1)^2 (\hat{k} \cdot \hat{l}) \Big) \delta^{ij} \delta^{mn} + (\hat{k} \cdot \hat{l}) \varepsilon^{ij}\varepsilon^{mn} \bigg] J_1 (k \tau) J_1\big(l(\tau-\tau')\big) \end{split}
+\end{equation*}
+
+\hrule
+\newpage
+\begin{equation*}
+\begin{split}
+v^\alpha v^\beta X^{\alpha \beta} = & ...~ (v^1)^2 J_0 (K) J_0(L) \delta^{ij} \delta^{mn} \\
+& - \Big( {v_\perp}^2 (\hat{k} \cdot \hat{l}) - (v_\perp \cdot \hat{k})(v_\perp \cdot \hat{l})\Big) J_1 (K) J_1(L) \varepsilon^{ij} \varepsilon^{mn} ... \\
+= & ...~ (v^1)^2 J_0 (K) J_0(L) \delta^{ij} \delta^{mn} \\
+& - (v_\perp \times \hat{k})(v_\perp \times \hat{l}) J_1 (K) J_1(L) \varepsilon^{ij} \varepsilon^{mn} ...
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+\delta^{\alpha \beta} X^{\alpha \beta}=& ...~ (\delta^{ij} \delta^{mn} + {v_\perp}^2 \varepsilon^{ij} \varepsilon^{mn}) J_0 (K) J_0(L) \\
+& + i (v_\perp \cdot \hat{l}) (\delta^{ij} \delta^{mn} - \varepsilon^{ij} \varepsilon^{mn}) J_0 (K) J_1(L) \\
+& + i (v_\perp \cdot \hat{k}) (\delta^{ij} \delta^{mn} - \varepsilon^{ij} \varepsilon^{mn}) J_1 (K) J_0(L) \\
+& - \bigg[ \Big((v_\perp \cdot \hat{k}) (v_\perp \cdot \hat{l}) + (v^1)^2 (\hat{k} \cdot \hat{l}) \Big) \delta^{ij} \delta^{mn} + (\hat{k} \cdot \hat{l}) \varepsilon^{ij}\varepsilon^{mn} \bigg] J_1 (K) J_1(L) \end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+\delta^{\alpha \beta} X^{\alpha \beta} = & \Big[ J_0(K) J_0(L) + i(v_\perp \cdot \hat{l}) J_0(K) J_1(L) + i(v_\perp \cdot \hat{k}) J_1(K) J_0(L)\\
+& ~ -\Big((v^1)^2 (\hat{k} \cdot \hat{l})+(v_\perp \cdot \hat{k}) (v_\perp \cdot \hat{l}) \Big)J_1(K) J_1(L) \Big] \delta^{ij} \delta^{mn}\\
+& + \Big[ {v_\perp}^2 J_0(K)J_0(L) - i (v_\perp \cdot \hat{l}) J_0(K) J_1(L) - i (v_\perp \cdot \hat{k}) J_1(K) J_0(L)\\
+& ~ - (\hat{k} \cdot \hat{l}) J_1(K) J_1(L) \Big] \varepsilon^{ij} \varepsilon^{mn}
+\end{split}
+\end{equation*}
+
+\hrule
+
+\begin{equation*}
+\begin{split}
+v^\alpha v^\beta X^{\alpha \beta} = & ...~ (v^1)^2 J_0 ^K J_0^L \delta^{ij} \delta^{mn} \\
+& - \Big( {v_\perp}^2 (\hat{k} \cdot \hat{l}) - (v_\perp \cdot \hat{k})(v_\perp \cdot \hat{l})\Big) J_1 ^K J_1^L \varepsilon^{ij} \varepsilon^{mn} ... \\
+= & ...~ (v^1)^2 J_0 ^K J_0^L \delta^{ij} \delta^{mn} \\
+& - (v_\perp \times \hat{k})(v_\perp \times \hat{l}) J_1 ^K J_1^L \varepsilon^{ij} \varepsilon^{mn} ...
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+\delta^{\alpha \beta} X^{\alpha \beta}=& ...~ (\delta^{ij} \delta^{mn} + {v_\perp}^2 \varepsilon^{ij} \varepsilon^{mn}) J_0 ^K J_0^L \\
+& + i (v_\perp \cdot \hat{l}) (\delta^{ij} \delta^{mn} - \varepsilon^{ij} \varepsilon^{mn}) J_0 ^K J_1^L \\
+& + i (v_\perp \cdot \hat{k}) (\delta^{ij} \delta^{mn} - \varepsilon^{ij} \varepsilon^{mn}) J_1 ^K J_0^L \\
+& - \bigg[ \Big((v_\perp \cdot \hat{k}) (v_\perp \cdot \hat{l}) + (v^1)^2 (\hat{k} \cdot \hat{l}) \Big) \delta^{ij} \delta^{mn} + (\hat{k} \cdot \hat{l}) \varepsilon^{ij}\varepsilon^{mn} \bigg] J_1 ^K J_1^L \end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+\delta^{\alpha \beta} X^{\alpha \beta} = & \Big[ J_0^K J_0^L + i(v_\perp \cdot \hat{l}) J_0^K J_1^L + i(v_\perp \cdot \hat{k}) J_1^K J_0^L\\
+& ~ -\Big((v^1)^2 (\hat{k} \cdot \hat{l})+(v_\perp \cdot \hat{k}) (v_\perp \cdot \hat{l}) \Big)J_1^K J_1^L \Big] \delta^{ij} \delta^{mn}\\
+& + \Big[ {v_\perp}^2 J_0^KJ_0^L - i (v_\perp \cdot \hat{l}) J_0^K J_1^L - i (v_\perp \cdot \hat{k}) J_1^K J_0^L\\
+& ~ - (\hat{k} \cdot \hat{l}) J_1^K J_1^L \Big] \varepsilon^{ij} \varepsilon^{mn}
+\end{split}
+\end{equation*}
+
+\hrule
+
+\begin{equation*}
+\begin{split}
+v^\alpha v^\beta X^{\alpha \beta} = & ...~ (v^1)^2 J_0 ^K J_0^L \delta^{ij} \delta^{mn} \\
+& - \Big( {v_\perp}^2 (\hat{J}_1^K \cdot \hat{J}_1^L) - (v_\perp \cdot \hat{J}_1^K)(v_\perp \cdot \hat{J}_1^L)\Big)  \varepsilon^{ij} \varepsilon^{mn} ... \\
+= & ...~ (v^1)^2 J_0 ^K J_0^L \delta^{ij} \delta^{mn} \\
+& - (v_\perp \times \hat{J}_1^K)(v_\perp \times \hat{J}_1^L)  \varepsilon^{ij} \varepsilon^{mn} ...
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+\delta^{\alpha \beta} X^{\alpha \beta}=& ...~ (\delta^{ij} \delta^{mn} + {v_\perp}^2 \varepsilon^{ij} \varepsilon^{mn}) J_0 ^K J_0^L \\
+& + i (v_\perp \cdot \hat{J}_1^L) (\delta^{ij} \delta^{mn} - \varepsilon^{ij} \varepsilon^{mn}) J_0 ^K  \\
+& + i (v_\perp \cdot \hat{J}_1^K) (\delta^{ij} \delta^{mn} - \varepsilon^{ij} \varepsilon^{mn}) J_0^L \\
+& - \bigg[ \Big((v_\perp \cdot \hat{J}_1^K) (v_\perp \cdot \hat{J}_1^L) + (v^1)^2 (\hat{J}_1^K \cdot \hat{J}_1^L) \Big) \delta^{ij} \delta^{mn} + (\hat{J}_1^K \cdot \hat{J}_1^L) \varepsilon^{ij}\varepsilon^{mn} \bigg] \end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+\delta^{\alpha \beta} X^{\alpha \beta} = & \Big[ J_0^K J_0^L + i(v_\perp \cdot \hat{J}_1^L) J_0^K + i(v_\perp \cdot \hat{J}_1^K)  J_0^L\\
+& ~ -\Big((v^1)^2 (\hat{J}_1^K \cdot \hat{J}_1^L)+(v_\perp \cdot \hat{J}_1^K) (v_\perp \cdot \hat{J}_1^L) \Big) \Big] \delta^{ij} \delta^{mn}\\
+& + \Big[ {v_\perp}^2 J_0^KJ_0^L - i (v_\perp \cdot \hat{J}_1^L) J_0^K - i (v_\perp \cdot \hat{J}_1^K) J_0^L\\
+& ~ - (\hat{J}_1^K \cdot \hat{J}_1^L) \Big] \varepsilon^{ij} \varepsilon^{mn}
+\end{split}
+\end{equation*}
+
+\newpage 
+
+FULL TENSOR SIMPLIFIED (without integral/colour space envelope)
+
+\begin{equation*}
+\begin{split}
+ X^{11} = & ... ~ \bigg[ J_0^K J_0^L \\
+& +i (v_\perp \cdot \hat{l}) J_0^K J_1^L \\
+& +i (v_\perp \cdot \hat{k}) J_1^K J_0^L \\
+& - (v_\perp \cdot \hat{l}) (v_\perp \cdot \hat{k}) J_1^K J_1^L
+\bigg] \delta^{ij} \delta^{mn}... 
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+ X^{1 \beta} = & ...~ \bigg[ - i v^1 \hat{l}^\beta J_0^K J_1^L    \\
+& + (v_\perp \cdot \hat{k})  v^1 \hat{l}^\beta J_1^K J_1^L  \bigg] \delta^{ij} \delta^{mn} ...
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+ X^{\alpha 1} = &...~ \bigg[  - i v^1 \hat{k}^\alpha J_1^K J_0^L   \\
+& + (v_\perp \cdot \hat{l})  v^1 \hat{k}^\alpha J_1^K J_1^L  \bigg] \delta^{ij} \delta^{mn}  ...
+\end{split}
+\end{equation*}
+
+
+\begin{equation*}
+\begin{split}
+ X^{\alpha \beta} = & ...~ \bigg\{ \bigg[ -\Big(\delta^{\alpha \beta}  - \frac{\hat{l}^\alpha \hat{k}^\beta}{\hat{l} \cdot \hat{k}}\Big) (\hat{l} \cdot \hat{k}) J_1^K J_1^L \\
+& -i \Big(\delta^{\alpha \beta}  - \frac{v^\alpha \hat{k}^\beta}{v_\perp \cdot \hat{k}}\Big) (v_\perp \cdot \hat{k}) J_1^K J_0^L \\
+& -i \Big(\delta^{\alpha \beta}  - \frac{\hat{l}^\alpha v^\beta}{\hat{l} \cdot v_\perp}\Big) (\hat{l} \cdot v_\perp) J_0^K J_1^L \\
+& + \Big(\delta^{\alpha \beta}  - \frac{v^\alpha v^\beta}{{v_\perp}^2}\Big) {v_\perp}^2 ~ J_0^K J_0^L \bigg] \varepsilon^{ij} \varepsilon^{mn} \\ 
+& -(v^1)^2 \hat{k}^\alpha \hat{l}^\beta J_1^K J_1^L \delta^{ij} \delta^{mn} \bigg\} ...
+\end{split}
+\end{equation*}
+
+\begin{equation*}
+\begin{split}
+ X^{\alpha \beta} = & ...~ \bigg\{ \bigg[ - \varepsilon^{\alpha \sigma} \hat{k}^\sigma ~ \varepsilon^{\beta \rho} \hat{l}^\rho ~ J_1^K J_1^L \\
+& -i \varepsilon^{\alpha \sigma} \hat{k}^\sigma ~ \varepsilon^{\beta \rho} v^\rho ~ J_1^K J_0^L \\
+& -i \varepsilon^{\alpha \rho} v^\rho ~ \varepsilon^{\beta \sigma} \hat{l}^\sigma ~ J_0^K J_1^L \\
+& + \varepsilon^{\alpha \sigma} v^\sigma ~ \varepsilon^{\beta \rho} v^\rho ~ J_0^K J_0^L \bigg] \varepsilon^{ij} \varepsilon^{mn} \\ 
+& -(v^1)^2 \hat{k}^\alpha \hat{l}^\beta ~  J_1^K J_1^L ~ \delta^{ij} \delta^{mn} \bigg\} ...
+\end{split}
+\end{equation*}
+
+
+\newpage
+
+$$ \frac{\diff E}{\diff x} \text{ and } \hat{q} $$
+
+\begin{equation*}
+\begin{split}
+\frac{\diff E}{\diff x} = & -\frac{v}{T} \frac{v^\alpha v^\beta}{v^2} X^{\alpha \beta} \\
+ = & ... -\frac{v}{T} \frac{1}{v^2} \Big[ (v^1)^2 J_0^K J_0^L \delta^{ij} \delta^{mn} - (v_\perp \times \hat{k})(v_\perp \times \hat{l}) J_1^K J_1^L  \varepsilon^{ij} \varepsilon^{mn}\Big] ...
+\end{split}
+\end{equation*}
+
+Pure transverse movement: $v^1 = 0, ~ {v_\perp}^2 = v^2$
+\begin{equation*}
+\begin{split}
+\left( \frac{\diff E}{\diff x} \right)_\perp = ... \frac{1}{Tv} (v_\perp \times \hat{k})(v_\perp \times \hat{l}) J_1^K J_1^L  \varepsilon^{ij} \varepsilon^{mn} ...
+\end{split}
+\end{equation*}
+
+Pure longitudinal movement: $v^1 = v, v_\perp=0$
+\begin{equation*}
+\left(\frac{\diff E}{\diff x} \right)_\parallel = ... -\frac{v}{T} J_0^K J_0^L \delta^{ij} \delta^{mn} ...
+\end{equation*}
+
+\hrule
+
+\begin{equation*}
+\begin{split}
+\hat{q} = & \frac{2}{v} \left( \delta^{\alpha \beta} - \frac{v^\alpha v^\beta}{v^2} \right) X^{\alpha \beta} \\
+= & ...~ \frac{2}{v} \Bigg[\frac{{v_\perp}^2}{v^2} \left( \delta^{ij} \delta^{mn} + v^2 \varepsilon^{ij} \varepsilon^{mn} \right) J_0 ^K J_0^L \\
+& + i (v_\perp \cdot \hat{l}) (\delta^{ij} \delta^{mn} - \varepsilon^{ij} \varepsilon^{mn}) J_0 ^K J_1^L \\
+& + i (v_\perp \cdot \hat{k}) (\delta^{ij} \delta^{mn} - \varepsilon^{ij} \varepsilon^{mn}) J_1 ^K J_0^L \\
+& -  \Big( (v^1)^2 (\hat{k} \cdot \hat{l}) +(v_\perp \cdot \hat{k}) (v_\perp \cdot \hat{l}) \Big) \left( \delta^{ij} \delta^{mn} + \frac{1}{v^2} \varepsilon^{ij}\varepsilon^{mn} \right)  J_1 ^K J_1^L \Bigg] ...
+\end{split}
+\end{equation*}
+
+Pure transverse movement: $v^1 = 0, ~ {v_\perp}^2 = v^2$
+\begin{equation*}
+\begin{split}
+\hat{q}_\perp = & ...~ \frac{2}{v} \Bigg[(\delta^{ij} \delta^{mn} + v^2 \varepsilon^{ij} \varepsilon^{mn}) J_0 ^K J_0^L \\
+& + i (v_\perp \cdot \hat{l}) (\delta^{ij} \delta^{mn} - \varepsilon^{ij} \varepsilon^{mn}) J_0 ^K J_1^L \\
+& + i (v_\perp \cdot \hat{k}) (\delta^{ij} \delta^{mn} - \varepsilon^{ij} \varepsilon^{mn}) J_1 ^K J_0^L \\
+&-  (v_\perp \cdot \hat{k}) (v_\perp \cdot \hat{l}) \left( \delta^{ij} \delta^{mn} + \frac{1}{v^2} \varepsilon^{ij}\varepsilon^{mn} \right)  J_1 ^K J_1^L \Bigg] ...
+\end{split}
+\end{equation*}
+
+Pure longitudinal movement: $v^1 = v, v_\perp=0$
+\begin{equation*}
+\begin{split}
+\hat{q}_\parallel = ...~ - \frac{2}{v} (\hat{k} \cdot \hat{l}) \left( v^2 \delta^{ij} \delta^{mn} + \varepsilon^{ij}\varepsilon^{mn} \right)  J_1 ^K J_1^L ...
+\end{split}
+\end{equation*}
+
+\end{document}

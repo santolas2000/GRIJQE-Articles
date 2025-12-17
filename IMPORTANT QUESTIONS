@@ -1,0 +1,9 @@
+proof that the fock-schwinger gauge is a valid gauge condition?
+
+The two pre-collision solutions do obey the Fock-Schwinger gauge condition, however, have we used up all their gauge freedom in making the fields in quadrant 4/0 null?
+	--the argument for using the different solutions in Q1 and Q2 is alright because of the causality argument
+	--but can we really combine them to give initial conditions to solve the YM equations in the center?
+		-- keeping A = 0 in Q4 already required us to give up all our transverse gauge freedom in the 1 and 2 cases, right? Is it possible to require both of them at the same time?
+		
+		
+	-- We use the argument of invariability under longitudinal boosts to say that the fields in Q3 are independent of eta. Why didn't we do that for Q1 and Q2?? Aren't our solutions in those quadrants dependent on eta?

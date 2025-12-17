@@ -1,0 +1,9 @@
+fock space.
+
+construction and destruction operators.
+"This naturally defines a classical scenario: The occupation numbers are much larger than the commutators between creation and annihilation operators. Thus, the quantum fluctuations are just a small correction to the strong background field:"
+-Marquet page 8
+
+gauges.
+
+getting the coulomb classical form for a field out of the classical approximation of an electron field 2nd-quantized.
