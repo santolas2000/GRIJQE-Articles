@@ -1,0 +1,32 @@
+CHAT GPT 1
+
+"This is analogous to the classical treatment of ﬁelds in statistical mechanics, where, at large occupations, the classical approximation is justiﬁed by the large occupation number."
+
+	Occupation number (number of gluons per phase space cell -- in momentum space)
+	
+		f(k) = N(k) ~ k/(g^2) <A(k) A(-k)>
+	
+	Gluon fields
+	
+		YM: D_μ F^μν = J^ν
+		Since J ~ gρ and ρ is large -> A ~ 1/g
+		
+	Field Strength
+		
+		F ~ kA ~ Q/g
+	
+	
+	Energy density
+	
+		ε ~ F² ~ Q²/g²
+		OR
+		ε = ∫d³k k f(k) ~ Q⁴ f(Q)
+		
+		Equating, f(Q) ~ 1/g² ~ 1/α
+		
+	Other way
+		emmission rate: αf
+		recombination rate: α²f² (?)
+		when they are equal, f ~ 1/α
+		
+	Bosonic fields behave classically when f(k) >> 1
